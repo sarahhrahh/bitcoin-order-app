@@ -26,10 +26,10 @@ jobs:
 
       - name: Change script permission
         run: |
-          chmod +x scripts/jshint-script.sh
+          chmod +x Scripts/jshint-script.sh
 
       - name: Run scan with JSHint
-        run: scripts/jshint-script.sh
+        run: Scripts/jshint-script.sh
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
